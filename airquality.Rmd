@@ -13,3 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 airquality <- data.frame(airquality, package="datasets")
 airquality <- as.data.frame(airquality)
 ```
+
+```{r}
+library(ggplot2)
+ggplot(data=airquality) + geom_bar(mapping=aes(Ozone))
+```
+

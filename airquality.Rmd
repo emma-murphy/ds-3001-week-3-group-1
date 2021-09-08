@@ -19,3 +19,8 @@ library(ggplot2)
 ggplot(data=airquality) + geom_bar(mapping=aes(Ozone))
 ```
 
+```{r}
+ggplot(data=airquality) + geom_bar(mapping=aes(Ozone)) +
+  ylab('Frequency') + xlab('Ozone')
+```
+

@@ -1,0 +1,15 @@
+---
+title: "Week 3 Lab Group 1"
+author: "Madeleine Ashby, Kylie Wise, Emma Murphy, Claire Dozier"
+date: "9/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+airquality <- data.frame(airquality, package="datasets")
+airquality <- as.data.frame(airquality)
+```

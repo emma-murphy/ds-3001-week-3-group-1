@@ -24,3 +24,9 @@ ggplot(data=airquality) + geom_bar(mapping=aes(Ozone)) +
   ylab('Frequency') + xlab('Ozone')
 ```
 
+```{r}
+ggplot(data=airquality) + geom_bar(mapping=aes(Ozone)) +
+  ylab('Frequency') + xlab('Ozone') + ggtitle('Ozone Frequency Earth')
+```
+
+
